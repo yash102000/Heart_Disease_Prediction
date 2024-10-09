@@ -10,7 +10,7 @@ def hash_password(password):
 
 # Load the model
 working_dir = os.getcwd()  # Get the current working directory
-heart_disease_model = pickle.load(open('\models\heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('models\heart_disease_model.sav', 'rb'))
 
 # User registration and login
 def create_user(username, password, email):
